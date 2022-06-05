@@ -1,0 +1,109 @@
+Blast Burn 150 Special
+Blaze Kick 130 Physical
+Blue Flare 140 Special
+Burn Up 140 Special
+Burning Jealousy 120 Special
+Fiery Dance 130 Special
+Fire Blast 140 Special
+Fire Fang 120 Physical
+Fire Lash 130 Physical
+Fire Pledge 130 Special
+Fire Punch 130 Physical
+Fire Spin 90 Special
+Flame Charge 100 Physical
+Flame Wheel 110 Physical
+Flare Blitz 140 Physical
+Fusion Flare 130 Special
+Heat Crash 130 Physical
+Heat Wave 130 Special
+Lava Plume 130 Special
+Magma Storm 130 Special
+Mind Blown 150 Special
+Mystical Fire 130 Special
+Pyro Ball 140 Physical
+Sacred Fire 130 Physical
+Searing Shot 130 Special
+Shell Trap 150 Special
+
+
+
+
+V-create 150 Physical 
+Ember 90 Special
+Eruption 150 Special
+Flamethrower 130 Special
+Incinerate 110 Special
+Inferno 130 Special
+Overheat 140 Special
+
+
+
+"Blast Burn":150,
+"Blaze Kick":130,
+"Blue Flare":140,
+"Burn Up":140,
+"Burning Jealousy":120,
+"Fiery Dance":130,
+"Fire Blast":140,
+"Fire Fang":120,
+"Fire Lash":130,
+"Fire Pledge":130,
+"Fire Punch":130,
+"Fire Spin":90,
+"Flame Charge":100,
+"Flame Wheel":110,
+"Flare Blitz":140,
+"Fusion Flare":130,
+"Heat Crash":130,
+"Heat Wave":130,
+"Lava Plume":130,
+"Magma Storm":130,
+"Mind Blown":150,
+"Mystical Fire":130,
+"Pyro Ball":140,
+"Sacred Fire":130,
+"Searing Shot":130,
+"Shell Trap":150,
+"V-create":150,
+"Ember":90,
+"Eruption":150,
+"Flamethrower":130,
+"Incinerate":110,
+"Inferno":130,
+"Overheat":140
+
+
+
+"Blast Burn": true,
+"Blaze Kick": false,
+"Blue Flare": true,
+"Burn Up": true,
+"Burning Jealousy": true,
+"Fiery Dance": true,
+"Fire Blast": true,
+"Fire Fang": false,
+"Fire Lash": false,
+"Fire Pledge": true,
+"Fire Punch": false,
+"Fire Spin": true,
+"Flame Charge": false,
+"Flame Wheel": false,
+"Flare Blitz": false,
+"Fusion Flare": true,
+"Heat Crash": false,
+"Heat Wave": true,
+"Lava Plume": true,
+"Magma Storm": true,
+"Mind Blown": true,
+"Mystical Fire": true,
+"Pyro Ball": false,
+"Sacred Fire": false,
+"Searing Shot": true,
+"Shell Trap": true,
+"V-create": false,
+"Ember": true,
+"Eruption": true,
+"Flamethrower": true,
+"Incinerate": true,
+"Inferno": true,
+"Overheat": true

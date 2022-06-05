@@ -1,0 +1,157 @@
+.healthbar>div {
+    background-color: orange;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 8px;
+}
+
+.healthbar {
+    background-color: black;
+    /* (height of inner div) / 2 + padding */
+    padding: 0px;
+    width: 340px;
+    height: 8px;
+}
+
+.levelbar>div {
+    background-color: lightblue;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 8px;
+    z-index: 100;
+}
+
+img[src="img/pokemon/charizard/back.gif"] {
+    width: 600px;
+    z-index: 1;
+}
+
+.levelbar {
+    position: absolute;
+    background-color: black;
+    /* (height of inner div) / 2 + padding */
+    padding: 0px;
+    width: 150px;
+    height: 8px;
+    top: 455px;
+    left: 215.5px;
+    z-index: 100;
+}
+
+#playertooltip .healthbar {
+    position: absolute;
+    top: 445px;
+    left: 25px;
+    z-index: 100;
+}
+
+#playertooltip p {
+    position: absolute;
+    top: 382px;
+    z-index: 200;
+    left: 25px;
+    font-size: 23px;
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#enemytooltip .healthbar {
+    position: absolute;
+    top: 59px;
+    left: 735px;
+    width: 320px;
+}
+
+#playertooltip img {
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 400px;
+    z-index: 100;
+}
+
+#enemytooltip img {
+    width: 400px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 705px;
+}
+
+canvas {
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    position: absolute;
+    background-color: black;
+}
+
+.healthtext {
+    position: absolute;
+    z-index: 100;
+    top: 451px;
+    left: 25px;
+    font-size: 25px;
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#popupimg {
+    visibility: hidden;
+    position: absolute;
+    top: 670px;
+    height: 130px;
+    width: 1000px;
+    left: 50px;
+    border-radius: 40px 40px 0 0;
+    z-index: 100;
+}
+
+#popuptext {
+    position: absolute;
+    top: 670px;
+    left: 125px;
+    text-align: left;
+    width: 1000px;
+    visibility: hidden;
+    z-index: 100000;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.gameover {
+    z-index: 1000000000000;
+    width: 100vw;
+    height: 200vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.playagian {
+    z-index: 1000000000000;
+    width: 100vw;
+    height: 200vh;
+    position: fixed;
+    top: -100vh;
+    left: 0px;
+}
+
+#name {
+    position: absolute;
+    top: 0px;
+    left: 740px;
+    z-index: 1000010;
+    font-size: 17px;
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}

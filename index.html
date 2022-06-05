@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandamon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/lib/p5.min.js"></script>
+    <script src="js/lib/DamageCalc.js"></script>
+    <script src="js/lib/Panda.js"></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'efg6evp',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <div id="playertooltip">
+        <img src="img/pokemon/tooltip.png">
+        <p>Charizard</p>
+        <div class="healthbar">
+            <div></div>
+        </div>
+        <div class="levelbar">
+            <div></div>
+        </div>
+        <span class="healthtext">Loading...</span>
+    </div>
+    <img id="popupimg" src="img/popup.png">
+    <h1 id="popuptext">ERROR!</h1>
+    <!-- <div id = "moves">
+        <div id = "superpower">
+            <img src = "img/superpower.png">
+            <span>8/8</span>
+        </div>
+        <div id = "headbut">
+            <img src = "img/zenheadbut.png">
+            <span>24/24</span>
+        </div>
+        <div id = "gunkshot">
+            <img src = "img/gunkshot.png">
+            <span>8/8</span>
+        </div>
+    </div> -->
+    <div id="enemytooltip">
+        <img src="img/pokemon/tooltip.png">
+        <div class="healthbar">
+            <div></div>
+        </div>
+        <p id="name">Old pangoro</p>
+    </div>
+    <img src="img/gui/dynamaxbutton.png" id="dynamaxbutton" style="width:150px; position:absolute;top:600px; left:450px; visibility:hidden; z-index: 100;">
+    <script src="js/data.js"></script>
+    <script src="js/Popup.js"></script>-
+    <script src="js/Moves.js"></script>
+    <script src="js/Pokemon.js"></script>
+    <script src="js/Status.js"></script>
+    <script src="js/MoveInfo.js"></script>
+    <script src="js/PokemonList.js"></script>
+    <script src="js/Selection.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
